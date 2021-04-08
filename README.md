@@ -43,6 +43,6 @@ Como broche final, publicamos nuestro proyecto en `GITHUB PAGES` para poder comp
 
 ## Special thanks to
 
-- [CORE CODE SCHOOL] (https://www.corecode.school/)
-- [MARC POMAR] (https://github.com/boyander)
+- [CORE CODE SCHOOL](https://www.corecode.school/)
+- [MARC POMAR](https://github.com/boyander)
 - A todos los asistentes del directo con los que compartimos una tarde de código :)
