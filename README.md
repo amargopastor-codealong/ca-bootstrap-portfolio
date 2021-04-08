@@ -6,7 +6,7 @@ En este primer `MEETUP` hemos aprendido cómo hacer nuestro propio `PORTFOLIO` u
 
 Con conocimientos básicos de `HTML` y `CSS` hemos aprovechados componentes externos para, en muy poco tiempo, tener una página moderna, actualizada y `responsive`. Además, con un poco de `JS` hemos añadido alguna [librería extra](https://michalsnik.github.io/aos/) que dote a nuestro proyecto de un toque de único.
 
-Como broche final, publicamos nuestro proyecto en `GITHUB PAGES` para poder compartirlo con todo el mundo: ¡Hecha tu mismo vistazo al [resultado final](https://amargopastor.github.io/mp-bootstrap-portfolio/)!
+Como broche final, publicamos nuestro proyecto en `GITHUB PAGES` para poder compartirlo con todo el mundo: ¡Hecha tu mismo vistazo al [resultado final](https://amargopastor.github.io/mu-bootstrap-portfolio/)!
 
 ## Getting started
 
