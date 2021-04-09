@@ -8,6 +8,8 @@ Con conocimientos básicos de `HTML` y `CSS` hemos aprovechados componentes exte
 
 Como broche final, publicamos nuestro proyecto en `GITHUB PAGES` para poder compartirlo con todo el mundo: ¡Hecha tu mismo vistazo al [resultado final](https://amargopastor.github.io/mu-bootstrap-portfolio/)!
 
+¿Te lo perdiste? ¡Puedes volver a verlo [aquí](https://www.youtube.com/watch?v=-jSPwMkMBSA&ab_channel=CORECodeSchool)!
+
 ## Getting started
 
 - Instalar `GIT`en tu ordenador.
