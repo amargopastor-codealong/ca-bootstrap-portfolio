@@ -15,14 +15,14 @@ Para todo ello sólo necesitarás conocimientos básicos de `HTML`, `CSS` y una 
 
 ## Index
 
-1. [¿Why Bootstrap?](#1.¿Why-Bootstrap?)
-1. [We have used](#2.We-have-used)
-1. [Getting started](#3.Getting-started)
-1. [Code along](#4.Code-along)
-1. [GitHub pages](#5.GitHub-pages)
-1. [Results](#6.Results)
-1. [Resources](#7.Resources)
-1. [Special thanks to](#8.Special-thanks-to)
+1. [¿Why Bootstrap?](#1Why-Bootstrap)
+1. [We have used](#2We-have-used)
+1. [Getting started](#3Getting-started)
+1. [Code along](#4Code-along)
+1. [GitHub pages](#5GitHub-pages)
+1. [Results](#6Results)
+1. [Resources](#7Resources)
+1. [Special thanks to](#8Special-thanks-to)
 
 ## 1.¿Why Bootstrap?
 
