@@ -444,7 +444,7 @@ En `Source`, elije la rama desde la que quieres publicar (por defecto tendrás t
 ## 6.Results
 
 - [GitHub Pages](https://amargopastor.github.io/mu-bootstrap-portfolio/)
-- [CODE](https://github.com/amargopastor/mu-bootstrap-portfolio)
+- [CODE](https://github.com/amargopastor/ca-bootstrap-portfolio/blob/main/blog/README.md)
 - [YOUTUBE](https://www.youtube.com/watch?v=-jSPwMkMBSA&ab_channel=CORECodeSchool)
 
 ## 7.Resources
