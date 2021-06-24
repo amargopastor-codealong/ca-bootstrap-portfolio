@@ -8,7 +8,7 @@ Con conocimientos básicos de `HTML` y `CSS` hemos aprovechados componentes exte
 
 Como broche final, publicamos nuestro proyecto en `GITHUB PAGES` para poder compartirlo con todo el mundo: ¡Hecha tu mismo vistazo al [resultado final](https://amargopastor.github.io/ca-bootstrap-portfolio/)!
 
-¿Te lo perdiste? ¡Puedes [volver a verlo](https://www.youtube.com/watch?v=-jSPwMkMBSA&ab_channel=CORECodeSchool) o leer el [artículo completo](https://github.com/amargopastor/mu-bootstrap-portfolio/blob/main/blog/README.md)!
+¿Te lo perdiste? ¡Puedes [volver a verlo](https://www.youtube.com/watch?v=-jSPwMkMBSA&ab_channel=CORECodeSchool) o leer el [artículo completo](https://github.com/amargopastor/ca-bootstrap-portfolio/blob/main/blog/README.md)!
 
 ## Getting started
 
