@@ -377,7 +377,7 @@ Y además, para este caso concreto añadir un pequeño script justo antes del ci
 </body>
 ```
 
-Comprueba tu mismo el efecto de las section cuando hacemos scroll [aquí](https://amargopastor.github.io/mu-bootstrap-portfolio/).
+Comprueba tu mismo el efecto de las section cuando hacemos scroll [aquí](https://github.com/amargopastor/ca-bootstrap-portfolio/blob/main/blog/README.md).
 
 ### 4.8.Footer
 
