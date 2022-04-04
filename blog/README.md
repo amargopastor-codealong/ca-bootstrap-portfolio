@@ -13,7 +13,7 @@ Para todo ello sólo necesitarás conocimientos básicos de `HTML`, `CSS` y una 
 
 ¡Vamos allá!
 
-## Index
+## Table of Contents
 
 1. [¿Why Bootstrap?](#1Why-Bootstrap)
 1. [We have used](#2We-have-used)
@@ -74,28 +74,28 @@ Comenzamos creando una plantilla básica de HTML y un fichero css para nuestros 
 ```html
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Vinculo mi hoja styles.css -->
-    <link rel="stylesheet" href="./styles.css" />
-    <!-- Personalizo el title de mi página -->
-    <title>My first portfolio</title>
-    <!-- Añado un pequeño icono a la página desde mi carpeta de imágenes -->
-    <link rel="icon" type="image/png" href="./images/githubLogo.jpg" />
-  </head>
-  <body>
-    <div id="boton-principal">
-      <p>Hello world</p>
-    </div>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Vinculo mi hoja styles.css -->
+		<link rel="stylesheet" href="./styles.css" />
+		<!-- Personalizo el title de mi página -->
+		<title>My first portfolio</title>
+		<!-- Añado un pequeño icono a la página desde mi carpeta de imágenes -->
+		<link rel="icon" type="image/png" href="./images/githubLogo.jpg" />
+	</head>
+	<body>
+		<div id="boton-principal">
+			<p>Hello world</p>
+		</div>
+	</body>
 </html>
 ```
 
 ```css
 p {
-  color: "red";
+	color: 'red';
 }
 ```
 
@@ -103,15 +103,15 @@ Vamos ahora a vincular [Bootstrap](https://getbootstrap.com/). Para poder utiliz
 
 ```html
 <link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
-  rel="stylesheet"
-  integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
-  crossorigin="anonymous"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+	crossorigin="anonymous"
 />
 <script
-  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-  crossorigin="anonymous"
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+	crossorigin="anonymous"
 ></script>
 ```
 
@@ -125,41 +125,41 @@ Vamos a incorporar una barra de navegación superior o [navbar](https://getboots
 
 ```html
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container">
-    <a class="navbar-brand" href="#">
-      <img
-        src="./images/githubLogo.jpg"
-        alt=""
-        width="25"
-        class="d-inline-block align-text-top"
-      />
-      @amargopastor
-    </a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Intro</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Mis proyectos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
-        </li>
-      </ul>
-    </div>
-  </div>
+	<div class="container">
+		<a class="navbar-brand" href="#">
+			<img
+				src="./images/githubLogo.jpg"
+				alt=""
+				width="25"
+				class="d-inline-block align-text-top"
+			/>
+			@amargopastor
+		</a>
+		<button
+			class="navbar-toggler"
+			type="button"
+			data-bs-toggle="collapse"
+			data-bs-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent"
+			aria-expanded="false"
+			aria-label="Toggle navigation"
+		>
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="#">Intro</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Mis proyectos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contacto</a>
+				</li>
+			</ul>
+		</div>
+	</div>
 </nav>
 ```
 
@@ -172,7 +172,7 @@ Incluye en tu `html.index`:
 ```html
 <div class="bg home"></div>
 <div class="bg-text container">
-  <h1>CODE. ENJOY. REPEAT.</h1>
+	<h1>CODE. ENJOY. REPEAT.</h1>
 </div>
 ```
 
@@ -180,50 +180,50 @@ Y algunos estilos en el `style.css`:
 
 ```css
 body {
-  margin: 0; /*Elimnina el margin que le añade por defecto el navegador a nuestro body*/
-  background: lightgray;
+	margin: 0; /*Elimnina el margin que le añade por defecto el navegador a nuestro body*/
+	background: lightgray;
 }
 /* Ver apartado 4.5.Variables css */
 :root {
-  --main-color: white;
+	--main-color: white;
 }
 .bg {
-  text-align: center;
-  padding: 10px;
-  height: 100vh; /* La caja ocupará el 100% del alto del navegador*/
-  background-size: cover; /* Ajusta la proporoción de la imagen a la caja*/
-  background-position: center;
-  box-sizing: border-box; /* Definimos si la altura de la caja será hasta el borde. Es decir, si habrá padding o no*/
+	text-align: center;
+	padding: 10px;
+	height: 100vh; /* La caja ocupará el 100% del alto del navegador*/
+	background-size: cover; /* Ajusta la proporoción de la imagen a la caja*/
+	background-position: center;
+	box-sizing: border-box; /* Definimos si la altura de la caja será hasta el borde. Es decir, si habrá padding o no*/
 
-  /* -- modo flexbox -- */
-  display: flex; /*Las cajas de dentro se posicionarán según flexbox*/
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  /* -- modo flexbox -- */
+	/* -- modo flexbox -- */
+	display: flex; /*Las cajas de dentro se posicionarán según flexbox*/
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	/* -- modo flexbox -- */
 
-  /* -- blur efect -- */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+	/* -- blur efect -- */
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
 }
 .bg-text {
-  color: var(--main-color);
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-  /* Ver apartado 4.4.Google fonts */
-  font-family: RubikMonoOne;
+	color: var(--main-color);
+	font-weight: bold;
+	border: 3px solid #f1f1f1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 80%;
+	padding: 20px;
+	text-align: center;
+	/* Ver apartado 4.4.Google fonts */
+	font-family: RubikMonoOne;
 }
 /* El background es una imagen previamente descargada en nuestra carpeta images del proyecto */
 .home {
-  background-image: url("./images/bgImage.jpg");
+	background-image: url('./images/bgImage.jpg');
 }
 ```
 
@@ -244,8 +244,8 @@ Para vincularlo, haz click en `+ Select this style` y copia y pega los enlaces m
 ```html
 <link rel="preconnect" href="https://fonts.gstatic.com" />
 <link
-  href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap"
-  rel="stylesheet"
+	href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap"
+	rel="stylesheet"
 />
 ```
 
@@ -253,8 +253,8 @@ Observa como, para añadir las nuevas fuentes, simplemente debemos especificar l
 
 ```css
 .bg-text {
-  /* (...) */
-  font-family: RubikMonoOne;
+	/* (...) */
+	font-family: RubikMonoOne;
 }
 ```
 
@@ -264,7 +264,7 @@ En la cabecera de nuestro css hemos declarado una sintaxis expecial para estable
 
 ```css
 :root {
-  --main-color: white;
+	--main-color: white;
 }
 ```
 
@@ -272,8 +272,8 @@ Esto quiere decir que podemos añadir un valor a un estilo determinado a lo larg
 
 ```css
 .bg-text {
-  color: var(--main-color);
-  /* (...) */
+	color: var(--main-color);
+	/* (...) */
 }
 ```
 
@@ -285,43 +285,43 @@ Vamos a añadir ahora un `section` inspirado en las [cards de Bootstrap](https:/
 
 ```html
 <section class="container custom-section">
-  <div class="row">
-    <div
-      class="col-md"
-      data-aos="fade-up"
-      data-aos-offset="400"
-      data-aos-duration="500"
-    >
-      <img class="img-fluid" src="./images/cardImageLeft.jpg" alt="..." />
-    </div>
-    <div class="cb col-md">
-      <p class="card-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porta
-        dolor ac mollis eleifend. Ut lobortis orci nec libero gravida, eu
-        eleifend mi lacinia. Aenean ultrices hendrerit sem sit amet tincidunt.
-        Phasellus sodales facilisis ante, quis egestas sapien convallis sit
-        amet. Nam sed nisi scelerisque, luctus massa ut, finibus lorem.
-      </p>
-      <a href="https:/github.com/amargopastor"
-        ><i class="fa fa-github"></i> Ver en github</a
-      >
-    </div>
-  </div>
+	<div class="row">
+		<div
+			class="col-md"
+			data-aos="fade-up"
+			data-aos-offset="400"
+			data-aos-duration="500"
+		>
+			<img class="img-fluid" src="./images/cardImageLeft.jpg" alt="..." />
+		</div>
+		<div class="cb col-md">
+			<p class="card-text">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porta
+				dolor ac mollis eleifend. Ut lobortis orci nec libero gravida, eu
+				eleifend mi lacinia. Aenean ultrices hendrerit sem sit amet tincidunt.
+				Phasellus sodales facilisis ante, quis egestas sapien convallis sit
+				amet. Nam sed nisi scelerisque, luctus massa ut, finibus lorem.
+			</p>
+			<a href="https:/github.com/amargopastor"
+				><i class="fa fa-github"></i> Ver en github</a
+			>
+		</div>
+	</div>
 </section>
 ```
 
 ```css
 .custom-section {
-  padding-top: 50px;
+	padding-top: 50px;
 }
 .cb {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 .card-text {
-  font-family: "New Tegomin";
+	font-family: 'New Tegomin';
 }
 ```
 
@@ -329,7 +329,7 @@ Analicemos con detalle el siguiente fragmento:
 
 ```html
 <a target="_blank" href="https://github.com/amargopastor"
-  ><i class="fa fa-github"> </i> Ver github</a
+	><i class="fa fa-github"> </i> Ver github</a
 >
 ```
 
@@ -339,8 +339,8 @@ La clase `fa fa-github` añadirá un pequeño icono a nuestro enlace si añadimo
 
 ```html
 <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 />
 ```
 
@@ -352,10 +352,10 @@ Habrás observado en el fragmento de código anterior unas clases especiales a l
 
 ```html
 <div
-  class="col-md"
-  data-aos="fade-up"
-  data-aos-offset="400"
-  data-aos-duration="500"
+	class="col-md"
+	data-aos="fade-up"
+	data-aos-offset="400"
+	data-aos-duration="500"
 ></div>
 ```
 
@@ -370,10 +370,10 @@ Y además, para este caso concreto añadir un pequeño script justo antes del ci
 
 ```html
 <body>
-  <!-- (...) -->
-  <script>
-    AOS.init();
-  </script>
+	<!-- (...) -->
+	<script>
+		AOS.init();
+	</script>
 </body>
 ```
 
@@ -385,43 +385,43 @@ En último lugar, un pequeño `footer` con alguna clase personalizada, iconos y 
 
 ```html
 <footer>
-  <div class="container footer-elements">
-    <div class="container">
-      <p>
-        &copy; 2021 CORE.CODE.SCHOOL
-        <!-- <span class="badge bg-secondary">Hola</span> -->
-      </p>
-    </div>
-    <div class="container rrss">
-      <a
-        href="https://www.linkedin.com/in/marcos-iñigo-8a68438b"
-        class="fa fa-linkedin"
-        target="_blank"
-      ></a>
-      <a
-        href="https://github.com/amargopastor"
-        class="fa fa-github"
-        target="_blank"
-      ></a>
-    </div>
-  </div>
+	<div class="container footer-elements">
+		<div class="container">
+			<p>
+				&copy; 2021 CORE.CODE.SCHOOL
+				<!-- <span class="badge bg-secondary">Hola</span> -->
+			</p>
+		</div>
+		<div class="container rrss">
+			<a
+				href="https://www.linkedin.com/in/marcos-iñigo-8a68438b"
+				class="fa fa-linkedin"
+				target="_blank"
+			></a>
+			<a
+				href="https://github.com/amargopastor"
+				class="fa fa-github"
+				target="_blank"
+			></a>
+		</div>
+	</div>
 </footer>
 ```
 
 ```css
 footer {
-  background: black;
-  padding: 20px 0;
-  color: white;
-  margin-top: 40px;
+	background: black;
+	padding: 20px 0;
+	color: white;
+	margin-top: 40px;
 }
 
 .footer-elements {
-  display: flex;
+	display: flex;
 }
 
 .rrss > * {
-  color: white;
+	color: white;
 }
 ```
 
@@ -472,3 +472,5 @@ En `Source`, elije la rama desde la que quieres publicar (por defecto tendrás t
 - [CORE CODE SCHOOL](https://www.corecode.school/)
 - [Marc Pomar](https://github.com/boyander)
 - A todos los asistentes al directo con los que compartimos una tarde de código :)
+
+**[⬆ back to top](#table-of-contents)**
